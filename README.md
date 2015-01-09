@@ -1,7 +1,3 @@
-# Redradix-Weekend-with-Angular
-
-Redradix Weekend con Angularjs. Saturday 17-January-2015.
-
 **Que se pretende**:
     Crear un dialogo común mientras se ponen en práctica algunos de los conceptos más importantes de angular a través de la realización de una App web.
     Habrá diferentes temas, donde se explicará un concepto de angular nuevo que nos ayudará a hacer nuestra aplicación mas modular, reusable, robusta y testeable.
@@ -18,9 +14,9 @@ Redradix Weekend con Angularjs. Saturday 17-January-2015.
     Va a haber unas 6 partes/temas/ejercicios divididos en 2 etapas.
     Lo primero que vamos a hacer es crear un GNA. Lo que pasa es que este va a ser el GNA mas cutre que jamás haya existido, y lo vamos a ir mejorando según vayamos viendo nuevos conceptos de angular que nos permitan hacerlo. Este va a ir creciendo en elegancia, complejidad, modularidad y testeabilidad etc.
 
-    *Estas son las partes en las que se va a dividir nuestra sesión Angular:*
+    Estas son las partes en las que se va a dividir nuestra sesión Angular:
 
-    **Etapa 1.**
+    Etapa 1.
 
     Parte 1: "GNA Manual"
         . El maravillosísimo Doble Data Binding de 
@@ -48,7 +44,7 @@ Redradix Weekend con Angularjs. Saturday 17-January-2015.
           mediante servicios. $rootScope.$broadcast &&
           $scope.on(event).
         
-    **Etapa 2:**
+    Etapa 2:
 
     Parte 5: "Creando un Contenedor de GNAs": Cómo estructurar grandes Apps y tomando contacto con $route (ngRoute).
         . Refactorizando aún más: Nuestros 4 GNAs creados

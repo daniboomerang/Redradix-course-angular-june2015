@@ -2,7 +2,7 @@
 var GNAApp = angular.module('GNAApp', []);	
 
 /* Creating a new directive for aur app */	
-GNAApp.directive('gna', function($interval) {
+GNAApp.directive('gna', function($interval, gnaService) {
   return {
     restrict: 'E',
     scope: {},
@@ -17,23 +17,36 @@ GNAApp.directive('gna', function($interval) {
               '  </div> ' +
               ' </div> ',
     link: function (scope, element, attrs) {
-      function generateRandomNumber (){return Math.floor((Math.random() * attrs.mod) + 1)}
+      scope.$on(gnaService.subscriptionEvent(), function($event, randomNumber){ scope.randomNumber = randomNumber;});
       scope.mod = attrs.mod;
       scope.interval = attrs.interval;
-      scope.randomNumber;
       scope.generateRandomNumber = function() {
         var stop;
-          // Don't start a new geeration if we are already running GNA
-          if ( angular.isDefined(stop) ) return;
-          stop = $interval(function() {
-            scope.randomNumber = generateRandomNumber();
-          }, scope.interval);
-      };         
+        // Don't start a new geeration if we are already running GNA
+        if ( angular.isDefined(stop) ) return;
+        stop = $interval(function() {
+          gnaService.startService(attrs.mod);
+        }, scope.interval);
+      };      
     }
   };
 });
 
+/* Creating a new service for aur app */  
+GNAApp.factory('gnaService', function($rootScope) {
 
+  var SUBSCRIPTION = "event:newRandomNumber";
+
+  return {
+    subscriptionEvent: function () {
+      return SUBSCRIPTION;
+    },
+    startService: function (mod) {
+      function generateRandomNumber (mod){return Math.floor((Math.random() * mod) + 1)}
+      $rootScope.$broadcast(SUBSCRIPTION, generateRandomNumber(mod));
+    }
+  };
+});
 
 
     

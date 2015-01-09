@@ -38,11 +38,7 @@
     Parte 4: "Modularizando el GNA": Angular Services
         . "Angular way": Delegando cálculo y logica en
           servicios no en controlladores.
-        . Refactorizando. Creando el control 
-          remoto.
-          "Angular way": Comunicando controladores 
-          mediante servicios. $rootScope.$broadcast &&
-          $scope.on(event).
+          $rootScope.$broadcast && $scope.on(event).
         
     Etapa 2:
 

@@ -1,0 +1,13 @@
+/*********************/
+/* GNAs ContainerAPP */
+/*********************/
+
+.special,.special .jumbotron {height:100%;}
+
+/* Space out content a bit */
+body {
+  padding-top: 5px;
+  background-color: rgba(11, 27, 55, 0.8); 
+}
+
+a {color: white; transition: all .5s ease-in-out;}

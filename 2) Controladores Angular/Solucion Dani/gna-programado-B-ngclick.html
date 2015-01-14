@@ -13,10 +13,10 @@
         <link rel="stylesheet" href="../css/vendor/bootstrap.css">
 	</head>
 
-	<body ng-app="gnaProgrammed">
+	<body ng-app="gnaUIlogic">
 
-		<div id="gna-container" class="container" ng-controller="gnaProgrammedCtrl"> 
-			<h3> GNA Programado Dani</h3>
+		<div id="gna-container" class="container" ng-controller="gnaUIlogicCtrl"> 
+			<h3> GNA UIlogic</h3>
 			Por favor pulsa "GNA":
 			<button type="submit" class="btn btn-default" ng-click="generateRandomNumber()">Generar Numero Aleatorio</button>
 			<div id="display">
@@ -28,8 +28,8 @@
 
         <script src="../scripts/vendor/angular.js"></script>
 		<script>	
-        	var gnaProgrammed = angular.module('gnaProgrammed', []);		
-			gnaProgrammed.controller('gnaProgrammedCtrl', function ($scope){
+        	var gnaUIlogic = angular.module('gnaUIlogic', []);		
+			gnaUIlogic.controller('gnaUIlogicCtrl', function ($scope){
 				
 				function generateRandomNumber (){return Math.floor((Math.random() * 10) + 1)}
 				$scope.randomNumber;

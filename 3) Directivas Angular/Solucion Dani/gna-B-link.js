@@ -36,8 +36,7 @@ gnaAsDirective.directive('gna', function($interval) {
       scope.randomNumber;
       function generateRandomNumber (){return Math.floor((Math.random() * 10) + 1)}
       scope.generateRandomNumber = function() {
-        if ( angular.isDefined(stop) ) return;  // Don't start a new geeration if we are already running GNA
-            stop = $interval(function() {
+        $interval(function() {
             scope.randomNumber = generateRandomNumber();
         }, 1000);
       }

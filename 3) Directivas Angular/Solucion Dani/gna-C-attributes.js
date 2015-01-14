@@ -21,12 +21,9 @@ gnaAsDirective.directive('gna', function($interval) {
       scope.interval = attrs.interval;
       scope.randomNumber;
       scope.generateRandomNumber = function() {
-        var stop;
-          // Don't start a new geeration if we are already running GNA
-          if ( angular.isDefined(stop) ) return;
-          stop = $interval(function() {
-            scope.randomNumber = generateRandomNumber();
-          }, scope.interval);
+        $interval(function() {
+          scope.randomNumber = generateRandomNumber();
+        }, scope.interval);
       };         
     }
   };

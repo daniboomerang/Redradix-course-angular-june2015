@@ -4,16 +4,23 @@ var slidesAppDirectives = angular.module('slidesAppDirectives', []);
 slidesAppDirectives.directive('content', function() {
   return {
     restrict: 'E',
-    template:   ' <div id="gnas-content"> ' +
+    template:   ' <div id="slides-content"> ' +
                 '  <div class="container"> ' +
-                '   <div class="row"> ' +
-                '     <a href="https://docs.google.com/presentation/d/1n-1gW3IyH7FzIEbJhomi9C1mo4t9X3ZTjW-eyOmRJGg/pub?start=false&loop=false&delayms=15000" target="_blank"> Presentacion </a> ' +
+                '   <div style=""> <h1>Redradix Weekend con Angular:<h1></div>' + 
+                '   <div> ' +
+                '     <h3> <a href="https://docs.google.com/presentation/d/1n-1gW3IyH7FzIEbJhomi9C1mo4t9X3ZTjW-eyOmRJGg/pub?start=false&loop=false&delayms=15000" target="_blank"> Presentacion </a> </h3>' +
                 '   </div> ' +
-                '   <div class="row"> ' +
-                '     <a href="https://docs.google.com/presentation/d/1kiB25xWepWtXGh0HrFyCffxhYq4o60YSBADqVq09uz0/pub?start=false&loop=false&delayms=15000" target="_blank"> Empezando con AngularJS </a> ' +
+                '   <div> ' +
+                '     <h3> <a href="https://docs.google.com/presentation/d/1kiB25xWepWtXGh0HrFyCffxhYq4o60YSBADqVq09uz0/pub?start=false&loop=false&delayms=15000" target="_blank"> Empezando con AngularJS </a> </h3>' +
                 '   </div> ' +
-                '   <div class="row"> ' +
-                '   <a href="https://docs.google.com/presentation/d/1nIykRJihNPBZA-X-dTyrFeG76c_ajMbe6RA7CjcaYqQ/pub?start=false&loop=false&delayms=15000"> Angular Controllers </a> ' +
+                '   <div> ' +
+                '     <h3> <a href="https://docs.google.com/presentation/d/1nIykRJihNPBZA-X-dTyrFeG76c_ajMbe6RA7CjcaYqQ/pub?start=false&loop=false&delayms=15000" target="_blank"> Angular Controllers </a> </h3>' +
+                '   </div> ' +
+                '   <div> ' +
+                '     <h3> <a href="https://docs.google.com/presentation/d/14bAe_hw-0ds58aTQ3fIqKTGf5Nnc5dqFyP1hRqTj9ZI/pub?start=false&loop=false&delayms=15000" target="_blank"> Angular Directives </a> </h3>' +
+                '   </div> ' +
+                '   <div> ' +
+                '     <h3> <a href="https://docs.google.com/presentation/d/14bAe_hw-0ds58aTQ3fIqKTGf5Nnc5dqFyP1hRqTj9ZI/pub?start=false&loop=false&delayms=15000" target="_blank"> Angular Services </a> </h3>' +
                 '   </div> ' +
                 '  </div> ' +
                 ' </div> '

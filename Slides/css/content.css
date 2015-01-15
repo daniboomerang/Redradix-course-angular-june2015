@@ -1,11 +1,10 @@
-	#gnas-content{
+	#slides-content{
 		width: 60%;
 		height: 100%;
     	margin: 0 auto;
     	margin-top: 5%;
     	margin-bottom: 5%;
 		padding: 5%;
-		font-size:10px;
 		color: black;
 		background: white;
 		background-color: rgba(11, 27, 55, 0.2);
@@ -21,19 +20,19 @@
 /*========== RESPONSIVENESS ==========*/
 
 /* Medium devices (desktops, 200px and up) */
-@media (min-width: 200px) { h3{font-size:0.6em;} .btn{font-size: 0.6em !important;} #gnas-content{font-size: 0.6em}}
+@media (min-width: 200px) { h3{font-size:0.6em;} h1{font-size: 0.8em;} .btn{font-size: 0.6em !important;} #slides-content{font-size: 0.6em}}
 
 /* Medium devices (desktops, 500px and up) */
-@media (min-width: 500px) { h3{font-size:0.8em;} .btn{font-size: 0.8em !important;} #gnas-content{font-size: 0.8em}}
+@media (min-width: 500px) { h3{font-size:0.8em;} h1{font-size: 1.2em;} .btn{font-size: 0.8em !important;} #slides-content{font-size: 0.8em}}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { h3{font-size:1.2em;} .btn{font-size: 1.2em !important;} #gnas-content{}}
+@media (min-width: 992px) { h3{font-size:1.2em;} h1{font-size: 1.6em;} .btn{font-size: 1.2em !important;} #slides-content{}}
 
 /* Large devices (large desktops, 1600px and up) */
-@media (min-width: 1600px) { #gnas-content{font-size: 1em; }}
+@media (min-width: 1600px) { #slides-content{font-size: 1em; }}
 
 /* Extra large devices (extra large desktops, 2000 and up) */
-@media (min-width: 2000px) { #gnas-content{font-size: 1.5em; }}
+@media (min-width: 2000px) { #slides-content{font-size: 1.5em; }}
 
 /* Extra large devices (extra large desktops, 3000 and up) */
-@media (min-width: 3000px) { #gnas-content{font-size: 2em; }}
+@media (min-width: 3000px) { #slides-content{font-size: 2em; }}

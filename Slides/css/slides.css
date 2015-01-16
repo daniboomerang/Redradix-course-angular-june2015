@@ -2,7 +2,6 @@
 /* SlidesAPP */
 /*************/
 
-
 html {
   position: relative;
   min-height: 100%;
@@ -14,4 +13,5 @@ body {
   /*background-color: rgba(11, 27, 55, 0.8); */
 }
 
-a {color: white; transition: all .5s ease-in-out;}
+a {color: white; transition: all .5s ease-in-out; }
+a:-webkit-any-link{ text-decoration:none !important; }

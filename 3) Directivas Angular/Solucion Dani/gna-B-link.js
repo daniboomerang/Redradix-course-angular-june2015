@@ -8,9 +8,7 @@ gnaAsDirective.controller('gnaAsDirectiveCtrl', function ($scope, $interval){
   var stop;
   $scope.randomNumber;
   $scope.generateRandomNumber = function() {
-    // Don't start a new geeration if we are already running GNA
-    if ( angular.isDefined(stop) ) return;
-        stop = $interval(function() {
+    $interval(function() {
         $scope.randomNumber = generateRandomNumber();
     }, 1000);
   };
@@ -22,7 +20,7 @@ gnaAsDirective.directive('gna', function($interval) {
   return {
     restrict: 'E',
     template:  ' <div id="gna-container" class="container"> ' +
-               '   <h3> GNA Como Directiva Dani</h3> ' +
+               '   <h3> GNA como Directiva</h3> ' +
                '   Por favor pulsa "GNA": ' +
                '   <button type="submit" class="btn btn-default" ng-click="generateRandomNumber()">Generar Numero Aleatorio</button> ' +
                '   <div id="display"> ' +

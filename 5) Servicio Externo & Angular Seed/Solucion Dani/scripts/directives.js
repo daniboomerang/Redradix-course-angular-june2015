@@ -20,10 +20,7 @@ gnaApiDirectives.directive('gnaApi', function($interval, gnaApiService) {
       scope.mod = attrs.mod;
       scope.interval = attrs.interval;
       scope.generateRandomNumber = function() {
-        var stop;
-        // Don't start a new geeration if we are already running GNA
-        if ( angular.isDefined(stop) ) return;
-        stop = $interval(function() {
+        $interval(function() {
           gnaApiService.startService(attrs.mod);
         }, scope.interval);
       };      

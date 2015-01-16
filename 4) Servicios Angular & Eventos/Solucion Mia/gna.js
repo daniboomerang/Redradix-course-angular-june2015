@@ -6,7 +6,7 @@ gnaWithService.directive('gna', function($interval, /* INJECTA TU SERVICIO AQUI 
   return {
     restrict: 'E',
     template:  ' <div id="gna-container" class="container"> ' +
-               '   <h3> GNA Como directiva de Dani con MOD {{mod}} e intervalo de tiempo {{interval}} ms</h3> ' +
+               '   <h3> GNA con servicio con MOD {{mod}} e intervalo de tiempo {{interval}} ms</h3> ' +
                '   Por favor pulsa "GNA": ' +
                '   <button type="submit" class="btn btn-default" ng-click="generateRandomNumber()">Generar Numero Aleatorio</button> ' +
                '   <div id="display"> ' +
@@ -20,10 +20,7 @@ gnaWithService.directive('gna', function($interval, /* INJECTA TU SERVICIO AQUI 
       scope.mod = attrs.mod;
       scope.interval = attrs.interval;
       scope.generateRandomNumber = function() {
-        var stop;
-        // Don't start a new geeration if we are already running GNA
-        if ( angular.isDefined(stop) ) return;
-        stop = $interval(function() {
+        $interval(function() {
           gnaService.startService(attrs.mod);
         }, scope.interval);
       };      

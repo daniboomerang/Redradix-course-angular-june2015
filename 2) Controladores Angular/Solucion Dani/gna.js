@@ -8,9 +8,7 @@ gnaUIlogic.controller('gnaUIlogicCtrl', function ($scope, $interval){
     var stop;
     $scope.randomNumber;
     $scope.generateRandomNumber = function() {
-        // Don't start a new geeration if we are already running GNA
-        if ( angular.isDefined(stop) ) return;
-            stop = $interval(function() {
+        $interval(function() {
             $scope.randomNumber = generateRandomNumber();
         }, 1000);
     };      

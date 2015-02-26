@@ -1,0 +1,17 @@
+/*********************/
+/* GNAs ContainerAPP */
+/*********************/
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 1%;
+  padding-bottom: 15%;
+  /*background-color: rgba(11, 27, 55, 0.8); */
+}
+
+a {color: white; transition: all .5s ease-in-out;}

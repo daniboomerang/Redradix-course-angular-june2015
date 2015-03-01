@@ -29,8 +29,7 @@
         <script src="../scripts/vendor/angular.js"></script>
 		<script>	
         	var gnaUIlogic = angular.module('gnaUIlogic', []);		
-			gnaUIlogic.controller('gnaUIlogicCtrl', function ($scope){
-				
+			gnaUIlogic.controller('gnaUIlogicCtrl', function ($scope){		
 				function generateRandomNumber (){return Math.floor((Math.random() * 10) + 1)}
 				$scope.randomNumber;
 				$scope.generateRandomNumber = function(){

@@ -1,14 +1,15 @@
-# Cas-training-with-Angular-Stage1
+# Redradix workshop with Angular
 ==================================================================================
 
-Cas-training con Angularjs. 2-10 MArs 2015. GNAs Container
-
+Redadix workshop with Angularjs. 23-27 Mars 2015
 
 # Technologies:
 
  * Front-end: Angularjs
+ * Back-end: Nodejs
 
 # Description:
 
- * First stage of the course. Look at the program https://github.com/daniboomerang/Castraining-with-Angular-Stage1/blob/master/temario-stage1.pdf
+ * This project contains all the material that will be used during the course.
+ * Theory and exercises grouped by subject
 

@@ -51,6 +51,10 @@ gnaApiDirectives.directive('foot', function() {
     restrict: 'E',
     template: ' <footer class="footer navbar-fixed-bottom"> ' +
               '  <div class="footer-row"> ' +
+              '   <a href="http://school.redradix.com/courses/angular-course" target="_blank" class="logo-redradix"><i class="fa fa-fw icon-logo-redradix"></i></a> ' +
+              '   &nbsp;&nbsp; ' + 
+              '   & ' + 
+              '   &nbsp;&nbsp; ' +
               '   <a href="https://angularjs.org/" target="_blank"><img src="images/logo-angularjs.svg" alt="AngularJS" class="logo-angular"></a> ' +
               '   &nbsp;&nbsp; ' +
               '   & ' +

@@ -19,9 +19,13 @@
   padding-bottom: 1%;
 }
 
+.element-wrapper{ padding: 2em;}
 .logo-dboom{ width: 2.8em !important; height: 2.8em !important; }
-.logo-dboom:hover, .logo-dboom:focus, .logo-dboom:active, .logo-dboom.active {color:  #FF9933; transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);}	
-.logo-angular { width:3em; height:3em; }	
+.logo-dboom:hover, .logo-dboom:focus, .logo-dboom:active, .logo-dboom.active {color:  #FF9933; transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);}
+
+.logo-redradix{ width: 3em; height: 3em; text-align: center; transition: all .3s ease-in-out;}
+.logo-redradix:hover, .logo-redradix:focus, .logo-redradix:active, .logo-redradix.active {color:  rgba(142, 0, 0, 1); text-decoration: none !important;}
+  
 /*========== RESPONSIVENESS ==========*/
 
 /* Medium devices (desktops, 200px and up) */

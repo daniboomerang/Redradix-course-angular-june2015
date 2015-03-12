@@ -1,0 +1,8 @@
+logs/*
+!.gitkeep
+/TEMA5/EJERCICIOS/node_modules/
+/TEMA5/EJERCICIOS/client/bower_components/
+tmp
+.DS_Store
+.idea
+*.log

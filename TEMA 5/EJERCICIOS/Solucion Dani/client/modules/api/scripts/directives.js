@@ -6,7 +6,7 @@ gnaApiDirectives.directive('gnaApi', function($interval, gnaApiService) {
   return {
     restrict: 'E',
     scope: {},
-    template: ' <div id="gna-container" class="container"> ' + 
+    template: ' <div id="gna-container"> ' + 
               ' <h3> GNA Servicio API Externo con MOD {{mod}} e intervalo de tiempo {{interval}} ms</h3> ' +
               '  <button type="submit" class="btn btn-default" ng-click="generateRandomNumber()">Generar Numero Aleatorio</button> ' +
               '  <div id="display"> ' +

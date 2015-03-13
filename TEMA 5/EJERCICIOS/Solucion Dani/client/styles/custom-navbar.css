@@ -3,7 +3,7 @@
 /************************************/
 
 .navbar { border: none !important; }
-.navbar-custom { border-radius: 0px; margin-bottom: 0; font-size: 4px; background-color: rgba(142, 0, 0, 1); border-bottom: solid white 1px !important; }
+.navbar-custom { border-radius: 0px; margin-bottom: 0; font-size: 4px; background-color: #134163; border-bottom: solid white 1px !important; }
 .navbar-custom .navbar-nav>li>a:hover {
 	color: white !important;
     background-color: rgba(118, 129, 149, 0.1);
@@ -13,7 +13,7 @@
 .navbar-custom .navbar-nav>li>a:focus { background-color: transparent; !important; transition: all .5s ease-in-out; color: white !important;}
 .navbar-header {position: absolute; left: 12%; top:23%; }
 .navbar-brand {color: white !important; padding: 0!important; padding-top: 15% !important;  padding-bottom: 10% !important; margin-left: 0 !important; height: auto;}
-.navbar-custom .navbar-brand:hover {  }
+.navbar-brand:hover { color:  rgba(142, 0, 0, 1) !important; text-decoration: none !important; }
 
 .navbar-custom .navbar-nav>li>a { color: white; line-height: 90px; height: 90px !important; padding-top: 0;}
 .navbar-custom .navbar-nav>li>a.active {

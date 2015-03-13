@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daniboomerang/Redradix-weekend-with-Angular-Stage2"
+    "url": "https://github.com/daniboomerang/Redradix-workshop-with-Angular"
   },
   "license": "MIT",
   "dependencies": {

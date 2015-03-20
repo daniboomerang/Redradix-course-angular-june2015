@@ -8,10 +8,10 @@ module.exports = function(config){
       'client/bower_components/angular/angular.js',
       'client/bower_components/angular-route/angular-route.js',
       'client/bower_components/angular-mocks/angular-mocks.js',
-      'client/bower_components/angular-parallax/scripts/angular-parallax.js',
-      'client/bower_components/angular-scroll/angular-scroll.js',
       'client/scripts/**/*.js',
       'client/views/**/*.html',
+      'client/modules/**/*.js',
+      'client/modules/**/*.html',
       'test/unit/client/**/*.js'
     ],
 

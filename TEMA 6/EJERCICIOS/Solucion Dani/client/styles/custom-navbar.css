@@ -1,0 +1,137 @@
+/************************************/
+/**************  NAVBAR *************/
+/************************************/
+
+.navbar { border: none !important; }
+.navbar-custom { border-radius: 0px; margin-bottom: 0; font-size: 4px; background-color: #134163; border-bottom: solid white 1px !important; }
+.navbar-custom .navbar-nav>li>a:hover {
+	color: white !important;
+    background-color: rgba(118, 129, 149, 0.1);
+    transition: all .5s ease-in-out;
+}
+
+.navbar-custom .navbar-nav>li>a:focus { background-color: transparent; !important; transition: all .5s ease-in-out; color: white !important;}
+.navbar-header {position: absolute; left: 12%; top:23%; }
+.navbar-brand {color: white !important; padding: 0!important; padding-top: 15% !important;  padding-bottom: 10% !important; margin-left: 0 !important; height: auto;}
+.navbar-brand:hover { color:  rgba(142, 0, 0, 1) !important; text-decoration: none !important; }
+
+.navbar-custom .navbar-nav>li>a { color: white; line-height: 90px; height: 90px !important; padding-top: 0;}
+.navbar-custom .navbar-nav>li>a.active {
+    box-shadow:inset 0px 1px 0px 0px white;
+    background-color: rgba(118, 129, 149, 0.3);
+    transition: all .2s ease-in-out;
+}
+
+ul.nav li {width: 20%;}
+ul.nav li a { display: block; padding: 1em; margin-right: 1em; text-align: center; }
+.custom-fluid-container {width: 85% !important;}
+
+/* ************************ */
+/* Non-responsive overrides */
+/* Utilitze the following CSS to disable the responsive-ness the navbar. */
+/* ************************ */
+
+/* Undo the collapsing navbar */
+.navbar-collapse {display: block !important;height: auto !important;padding-bottom: 0;overflow: visible !important;visibility: visible !important;}
+/* Always apply the floated nav */
+.navbar-nav {margin: 0;}
+.navbar-nav > li {float: left;}
+
+
+/*========== RESPONSIVENESS ==========*/
+
+/* Extra small Devices, (phones, 480px and up) */
+@media (min-width: 200px) {
+	.nav-custom-width {width: 90% !important;}
+	ul.nav li a { font-size: 1.6em; }
+	.navbar-brand {font-size: 2em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 50px; height: 50px !important;}
+	.navbar-custom .navbar-nav>li>a.active {box-shadow:inset 0px 1px 0px 0px white;}
+	.navbar-custom .navbar-nav>li>a:hover {box-shadow: inset 0 -0.3em 0 0 #FFFFFF;}
+}
+
+/* Extra small Devices, (phones, 320px and up) */
+@media (min-width: 320px) {
+	ul.nav li a { font-size: 2.5em; }
+	.navbar-brand {font-size: 2.5em;} 
+	.navbar-custom .navbar-nav>li>a { line-height: 60px; height: 60px !important;}
+	.navbar-custom .navbar-nav>li>a.active {box-shadow:inset 0px 1px 0px 0px white;}
+	.navbar-custom .navbar-nav>li>a:hover {box-shadow: inset 0 -0.2em 0 0 #FFFFFF;}	
+}
+
+/* Extra small Devices, (phones, 500px and up) */
+@media (min-width: 500px) {
+	ul.nav li a { font-size: 3em; }
+	.navbar-brand {font-size: 3em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 75px; height: 75px !important;}
+	.navbar-custom .navbar-nav>li>a.active {box-shadow:inset 0px 2px 0px 0px white;}
+	.navbar-custom .navbar-nav>li>a:hover {box-shadow: inset 0 -0.2em 0 0 #FFFFFF;}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.nav-custom-width {width: 85% !important;}
+	ul.nav li a { font-size: 2.5em; }
+	.navbar-brand {font-size: 4em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 90px; height: 90px !important;}
+	.navbar-custom .navbar-nav>li>a.active {box-shadow:inset 0px 2px 0px 0px white;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	ul.nav li a { font-size: 3em;}
+	.navbar-brand {font-size: 4.5em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 100px; height: 100px !important;}
+}
+
+/* Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) { 
+	ul.nav li a {font-size: 3.5em;}
+	.navbar-brand {font-size: 5em;}
+	.navbar-custom .navbar-nav>li>a.active {box-shadow:inset 0px 3px 0px 0px white;}
+	.navbar-custom .navbar-nav>li>a { line-height: 110px; height: 110px !important;}
+}
+
+/* Extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+	ul.nav li a { font-size: 4em; }
+	.navbar-brand {font-size: 5.3em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 115px; height: 115px !important;}
+}
+
+/* Extra large devices (extra large desktops, 1600px and up) */
+@media (min-width: 1600px) { 
+	ul.nav li a { font-size: 4.7em; }
+	.navbar-brand {font-size: 6.5em}
+	.navbar-custom .navbar-nav>li>a { line-height: 135px; height: 135px !important;}
+}
+
+/* Extra large devices (extra large desktops, 2000px and up) */
+@media (min-width: 2000px) {
+	ul.nav li a { font-size: 5em;}
+	.navbar-brand {font-size: 7em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 145px; height: 145px !important;}
+}
+
+/* Extra large devices (extra large desktops, 2500px and up) */
+@media (min-width: 2500px) {
+	ul.nav li a { font-size: 6.2em;}
+	.navbar-brand {font-size: 8.3em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 175px; height: 175px !important;}
+	.navbar-custom .navbar-nav>li>a.active {box-shadow:inset 0px 3px 0px 0px white;}
+}
+
+/* Extra large devices (extra large desktops, 2500px and up) */
+@media (min-width: 3000px) {
+	ul.nav li a { font-size: 6.3em; }
+	.navbar-brand {font-size: 11em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 190px; height: 190px !important;}
+	.navbar-custom .navbar-nav>li>a.active {box-shadow:inset 0px 4px 0px 0px white;}
+}
+
+/* Extra large devices (extra large desktops, 2500px and up) */
+@media (min-width: 3500px) {
+	ul.nav li a { font-size: 9em;}
+	.navbar-brand {font-size: 14em;}
+	.navbar-custom .navbar-nav>li>a { line-height: 300px; height: 300px !important;}
+}

@@ -1,0 +1,24 @@
+<!-- ------ -->
+<!-- NAVBAR -->
+<!-- ------ -->
+<div id="navbar" class="navbar navbar-custom">
+  <div class="container custom-fluid-container">
+    <div class="navbar-header">
+       <a class="navbar-brand" href="http://redradix.com/" target="_blank"><i class="fa fa-fw fa-2x icon-logo-redradix"></i></a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav pull-right nav-custom-width">
+        <li ng-repeat="module in modules">
+          <a id="{{ module.idLink }}" href="{{module.URLLink}}" ng-click="goToModule(module)" class="faa-parent animated-hover">
+            <span id="{{ module.idIcon}}" class="icon-stack">
+              <i class= "icon-sign-blank icon-stack-base"></i>
+              <span class="icon-fixed-width icon-light">{{ module.number}}</span>
+            </span>
+            <span class="hidden-xs"> &nbsp; - &nbsp; </span>
+            <span id="{{ module.idText }}" class="hidden-xs">{{ module.text }}  &nbsp;&nbsp;</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

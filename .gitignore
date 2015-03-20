@@ -3,10 +3,10 @@
 =======
 logs/*
 !.gitkeep
-/TEMA5/EJERCICIOS/Solucion Dani/node_modules/
-/TEMA5/EJERCICIOS/Solucion Dani/client/bower_components/
-/TEMA5/EJERCICIOS/Solucion Mia/node_modules/
-/TEMA5/EJERCICIOS/Solucion Mia/client/bower_components/
+/TEMA5/**/node_modules/
+/TEMA5/**/bower_components/
+/TEMA6/**/node_modules/
+/TEMA6/**/bower_components/
 tmp
 .DS_Store
 .idea

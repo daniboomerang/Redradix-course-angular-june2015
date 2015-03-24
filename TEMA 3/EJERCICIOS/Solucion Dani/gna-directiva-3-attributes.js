@@ -5,7 +5,7 @@ var gnaAsDirective = angular.module('gnaAsDirective', []);
 gnaAsDirective.directive('gna', function($interval) {
   return {
     restrict: 'E',
-    template:  ' <div id="gna-container" class="container"> ' +
+    template:  ' <div id="gna-container"> ' +
                '   <h3> GNA como directiva con MOD {{mod}} e intervalo de tiempo {{interval}} ms</h3> ' +
                '   Por favor pulsa "GNA": ' +
                '   <button type="submit" class="btn btn-default" ng-click="generateRandomNumber()">Generar Numero Aleatorio</button> ' +
@@ -28,18 +28,3 @@ gnaAsDirective.directive('gna', function($interval) {
     }
   };
 });
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-    

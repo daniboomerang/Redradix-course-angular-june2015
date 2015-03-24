@@ -18,7 +18,7 @@ gnaAsDirective.controller('gnaAsDirectiveCtrl', function ($scope, $interval){
 gnaAsDirective.directive('gna', function() {
   return {
     restrict: 'E',
-    template:  ' <div id="gna-container" class="container" ng-controller="gnaAsDirectiveCtrl"> ' +
+    template:  ' <div id="gna-container" ng-controller="gnaAsDirectiveCtrl"> ' +
                '   <h3> GNA como Directiva</h3> ' +
                '   Por favor pulsa "GNA": ' +
                '   <button type="submit" class="btn btn-default" ng-click="generateRandomNumber()">Generar Numero Aleatorio</button> ' +
@@ -30,9 +30,3 @@ gnaAsDirective.directive('gna', function() {
                ' </div> '
   };
 });
-
-
-
-
-
-    

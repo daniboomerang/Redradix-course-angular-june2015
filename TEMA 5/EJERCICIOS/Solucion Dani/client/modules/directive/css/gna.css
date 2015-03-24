@@ -1,0 +1,17 @@
+.even{ color: white; }
+.alarm{ 
+	text-align: center;
+	padding: 1%;
+	border-radius: 28px 28px 28px 28px;
+	-moz-border-radius: 28px 28px 28px 28px;
+	-webkit-border-radius: 28px 28px 28px 28px;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+	border: 1.5px solid red;
+	background: -webkit-linear-gradient(90deg, #e43a15 10%, #e65245 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #e43a15 10%, #e65245 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #e43a15 10%, #e65245 90%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #e43a15 10%, #e65245 90%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #e43a15 10%, #e65245 90%); /* W3C */
+}

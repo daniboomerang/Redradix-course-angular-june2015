@@ -16,7 +16,9 @@ gnaApiDirectives.directive('gnaApi', function($interval, gnaApiService) {
               '  </div> ' +
               ' </div> ',
     link: function (scope, element, attrs) {
-      scope.$on(gnaApiService.subscriptionEvent(), function($event, randomNumber){ scope.randomNumber = randomNumber;});
+      /* $on here */
+      
+      /* ******** */
       scope.mod = attrs.mod;
       scope.interval = attrs.interval;
       scope.generateRandomNumber = function() {

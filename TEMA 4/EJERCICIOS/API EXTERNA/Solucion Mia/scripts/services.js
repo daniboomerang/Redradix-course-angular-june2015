@@ -11,14 +11,7 @@ gnaApiServices.factory('gnaApiService', function($rootScope, $http) {
       return SUBSCRIPTION;
     },
     startService: function (mod) {
-      $http({
-        url: 'http://172.19.151.109:3000/api/gna/' + mod, 
-        method: 'GET'
-        }).success(function(randomNumber) {
-          $rootScope.$broadcast(SUBSCRIPTION, randomNumber);
-        }).error(function() {
-          console.log('Error trying to retrieve a random number from external API service.');
-      });
+      /* $http here that broadcasts an event */
     }
   };
 });

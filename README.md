@@ -1,7 +1,5 @@
-# Redradix workshop with Angular
+# Angular Redradix Course
 ==================================================================================
-
-Redadix workshop with Angularjs. 23-26 Mars 2015
 
 # Description:
 

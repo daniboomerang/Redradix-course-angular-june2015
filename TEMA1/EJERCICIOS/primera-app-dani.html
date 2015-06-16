@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app>
+
+	<head lang="es">
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href=""/>
+        <title>Redradix-AngularJS</title>
+        <meta name="description" content="Redradix-AngularJS">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- CSS BOOTSTRAP -->
+        <link rel="stylesheet" href="css/vendor/bootstrap.css">
+	</head>
+
+	<body>
+
+		<div id="sumador-container"> 
+			<h3> Primera App Angular: Sumador </h3>
+			Numero A.
+			<input type="number" autocomplete="off" ng-model="numberA"/>
+			</br>
+			Numero B.
+			<input type="number" autocomplete="off" ng-model="numberB"/> 
+			<div id="display">
+				<div id="suma">
+					<h3> A + B: {{numberA + numberB}} </h3>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+
+</html>

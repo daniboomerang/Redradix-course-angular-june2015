@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+        <head lang="es">
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <base href=""/>
+                <title>Redradix-AngularJS</title>
+                <meta name="description" content="Redradix-AngularJS">
+                <meta name="viewport" content="width=device-width">
+
+                <!-- CSS BOOTSTRAP -->
+                <link rel="stylesheet" href="css/vendor/bootstrap.css">
+        </head>
+
+        <body ng-app="gnaUIlogic">
+
+                <!-- Añade ng-controller para que Angular pueda crear un $scope en esta parte del DOM -->
+                <div id="gna-container"> 
+                        <h3> GNA UIlogic </h3>
+                        Por favor pulsa "GNA":
+                        <button type="submit" class="btn btn-default">Generar Numero Aleatorio</button>
+                        <!-- Añade ng-click a tu boton para poder llamar a funciones en tu controlador -->
+                        <div id="display">
+                                <div id="random-number">
+                                        <h3> El numero aleatorio generado es: {{randomNumber}} </h3>
+                                </div>
+                        </div>
+                </div>
+
+                <script src="scripts/vendor/angular.js"></script>
+                <script>
+                        
+                        /******** Aqui tu APP. Añade tu controlador *******/
+
+                        var gnaUIlogic = angular.module('gnaUIlogic', []);     
+
+                        /**************************************************/
+
+                </script>
+        
+	</body>
+</html>

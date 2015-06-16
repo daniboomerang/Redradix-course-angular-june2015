@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+        <head lang="es">
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <base href=""/>
+                <title>Redradix-AngularJS</title>
+                <meta name="description" content="Redradix-AngularJS">
+                <meta name="viewport" content="width=device-width">
+
+                <!-- CSS BOOTSTRAP -->
+                <link rel="stylesheet" href="../css/vendor/bootstrap.css">
+        </head>
+
+        <body ng-app="gnaAsDirective" ng-controller="gnaAsDirectiveCtrl">
+
+                <gna></gna>
+
+                <!-- <gna></gna> REEMPLAZA 
+                        ' <div id="gna-container" ng-controller="gnaAsDirectiveCtrl"> ' +
+                        '   <h3> GNA como Directiva</h3> ' +
+                        '   Por favor pulsa "GNA": ' +
+                        '   <button type="submit" class="btn btn-default" ng-click="generateRandomNumber()">Generar Numero Aleatorio</button> ' +
+                        '   <div id="display"> ' +
+                        '     <div id="random-number"> ' +
+                        '       <h3> El numero aleatorio generado es: {{randomNumber}} </h3> ' +
+                        '     </div> ' +
+                        '   </div> ' +
+                        ' </div> '
+                -->
+                
+                <script src="../scripts/vendor/angular.js"></script>
+                <script src="gna.js"></script>
+
+        </body>
+
+</html>
